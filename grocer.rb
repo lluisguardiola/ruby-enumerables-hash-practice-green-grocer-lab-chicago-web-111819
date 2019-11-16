@@ -2,8 +2,8 @@ def consolidate_cart(cart)
   new_cart = {}
   
   cart.each do |hash|
-    hash.each do |item, attributes|
-      new_cart[item] = attributes if !new_cart[item]
+    hash.each do |item, attribute|
+      new_cart[item] = attribute if !new_cart[item]
       
       if !new_cart[item][:count]
         new_cart[item][:count] = 1
@@ -35,7 +35,7 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
-  
+  cart.each do |item, attribute|
 end
 
 def checkout(cart, coupons)
