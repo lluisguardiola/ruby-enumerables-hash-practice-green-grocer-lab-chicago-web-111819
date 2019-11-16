@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
     
     if cart[item] && cart[item][:count] >= coupon[:num]
       
-      if 
+      if cart["#{}"]
         sdsdfsdf
       else
         sdsdfsdf
