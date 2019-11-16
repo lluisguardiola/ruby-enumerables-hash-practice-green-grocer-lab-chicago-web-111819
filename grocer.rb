@@ -48,5 +48,6 @@ def checkout(cart, coupons)
   
   total = 0
   
+  disc_cart.each do |item, attributes| {}
   
 end
