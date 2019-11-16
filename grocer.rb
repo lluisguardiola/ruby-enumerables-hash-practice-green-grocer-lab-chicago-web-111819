@@ -20,7 +20,11 @@ def apply_coupons(cart, coupons)
     item = coupon[:item]
     
     if cart[item] && cart[item][:count] >= coupon[:num]
-  
+      
+    else
+      
+    end
+  end
   cart
 end
 
