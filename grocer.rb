@@ -46,7 +46,7 @@ def checkout(cart, coupons)
   coupon_cart = apply_coupons(consol_cart, coupons)
   disc_cart = apply_clearance(coupon_cart)
   
-  total = 0
+  final_cost = 0
   
   disc_cart.each do |item, attributes| {}
   
