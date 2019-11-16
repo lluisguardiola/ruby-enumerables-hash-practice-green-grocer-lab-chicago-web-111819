@@ -21,8 +21,14 @@ def apply_coupons(cart, coupons)
     
     if cart[item] && cart[item][:count] >= coupon[:num]
       
-    else
+      if 
+        sdsdfsdf
+      else
+        sdsdfsdf
+      end
       
+    else
+      return cart
     end
   end
   cart
