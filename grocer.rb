@@ -48,6 +48,6 @@ def checkout(cart, coupons)
   
   final_cost = 0
   
-  disc_cart.each do |item, attributes| {}
+  disc_cart.each do |item, attributes|
   
 end
