@@ -51,5 +51,7 @@ def checkout(cart, coupons)
   disc_cart.each do |item, attributes|
     final_cost += (attributes[:price]*attributes[:count])
     final_cost = final_cost*0.9 if final_cost > 100
+  end
   
+  final_cost
 end
