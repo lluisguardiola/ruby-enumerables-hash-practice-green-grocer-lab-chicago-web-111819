@@ -50,6 +50,6 @@ def checkout(cart, coupons)
   
   disc_cart.each do |item, attributes|
     final_cost += (attributes[:price]*attributes[:count])
-    
+    final_cost = final_cost*0.9
   
 end
