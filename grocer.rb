@@ -4,6 +4,8 @@ def consolidate_cart(cart)
   cart.each do |hash|
     hash.each do |item, attribute|
       new_cart[item] = attribute if !new_cart[item]
+      
+      
     end
   end
   new_cart
