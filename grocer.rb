@@ -5,7 +5,7 @@ def consolidate_cart(cart)
     hash.each do |item, attribute|
       new_cart[item] = attribute if !new_cart[item]
       
-      if new_cart[item][:count] = 0
+      if new_cart[item][:count]
         new_cart[item][:count] = 1
       else
         new_cart[item][:count] += 1
